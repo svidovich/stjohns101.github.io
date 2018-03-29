@@ -24,6 +24,12 @@ body {
 	background-color:white;
 }
 
+/* Separate table rows a little bit on mobile, news */
+#news {
+	border-collapse: separate;
+    border-spacing: 0 1em;
+}
+
 /* unvisited link */
 a:link {
     color: black;
